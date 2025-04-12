@@ -1,0 +1,12 @@
+[href]:hover{
+    background-color: gray;
+}
+
+#list1{
+    font-weight: bold;
+}
+
+.container tr td{
+    border: 1px solid black;
+    padding: 10px;
+}
