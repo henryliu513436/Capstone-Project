@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" >
+		<script src="three.js"></script>
+		<script src="GLTFLoader.js"></script>
+		<script src="OrbitControls.js"></script>
+		<script src="tween.umd.js"></script>
+		<script type = "text/javascript" src="golfball1.js"></script>
+
+	</head>
+	<body">
+		<!-- body onload="draw(100,0.25*Math.PI,0.25*Math.PI) -->
+		<!-- <script src="avoidcors.js"></script> -->
+		<link rel="stylesheet" href="text.css" />
+		<p id="info">x position:<span id="xvalue"></span> m</p>
+		<p id="info1">y position:<span id="yvalue"></span> m</p>
+		<p id="info2">z position:<span id="zvalue"></span> m</p>
+
+		<p id="info3">predicted x position:<span id="x"></span> m</p>
+		<p id="info4">predicted y position:<span id="y"></span> m</p>
+		<p id="info5">predicted z position:<span id="z"></span> m</p>
+
+		<input type = "button" id="btn" onclick = "draw(100,0.25*Math.PI,0.25*Math.PI)" value = "Message Print">   
+		<!-- <input type = "button" onclick = "draw(30,10*Math.PI/180,10*Math.PI/180)" value = "Message Print">    -->
+
+	</body>
+</html>
