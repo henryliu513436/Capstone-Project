@@ -1,0 +1,54 @@
+#info {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	width: 100%;
+	text-align: left;
+	z-index: 100;
+	display:block;
+}
+#info1 {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	width: 100%;
+	text-align: left;
+	z-index: 100;
+	display:block;
+}
+#info2 {
+	position: absolute;
+	top: 50px;
+	left: 15px;
+	width: 100%;
+	text-align: left;
+	z-index: 100;
+	display:block;
+}
+#info3 {
+	position: absolute;
+	top: 100px;
+	left: 15px;
+	width: 100%;
+	text-align: left;
+	z-index: 100;
+	display:block;
+}
+#info4 {
+	position: absolute;
+	top: 120px;
+	left: 15px;
+	width: 100%;
+	text-align: left;
+	z-index: 100;
+	display:block;
+}
+#info5 {
+	position: absolute;
+	top: 140px;
+	left: 15px;
+	width: 100%;
+	text-align: left;
+	z-index: 100;
+	display:block;
+}
